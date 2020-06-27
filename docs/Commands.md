@@ -54,7 +54,7 @@ $ fluxctl install \
 --git-user=${GLUSER} \
 --git-email=${GLUSER}@gmail.com \
 --git-url=git@gitlab.com:${GLUSER}/flux-sample \
---git-path=namespaces,qa \
+--git-path=namespaces,production \
 --namespace=flux | kubectl apply -f -
 ```
 > Note: In the above sample 'flux-sample' is an example repo name. You would use the actual url for the repo you wish Flux to scan.
